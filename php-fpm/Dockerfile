@@ -27,7 +27,8 @@ RUN apk add --update \
     php7-session \
     php7-simplexml \
     make \
-    curl
+    curl \
+    bash
 
 RUN rm -rf /var/cache/apk/* && rm -rf /tmp/*
 
